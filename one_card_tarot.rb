@@ -90,5 +90,12 @@ get '/' do
 end
 
 get '/result' do
-    haml :result
+  @card = @deck[(rand(78))]
+  erb %{
+    <h1><%= @card[:name] %></h1>
+    <img src="<%= @card[:image] %>" />
+    <br><br><b><u><%= @card[:name] %></u></b>
+    <br><%= @card[:desc] %>
+	<p><a href="/">home</a></p>
+  }
 end
