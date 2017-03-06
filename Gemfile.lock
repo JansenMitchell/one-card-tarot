@@ -1,13 +1,28 @@
 GEM
   remote: https://rubygems.org/
   specs:
+<<<<<<< HEAD
     daemons (1.2.4)
     eventmachine (1.2.3)
+=======
+    autoprefixer-rails (6.7.6)
+      execjs
+    bootstrap (4.0.0.alpha6)
+      autoprefixer-rails (>= 6.0.3)
+      sass (>= 3.4.19)
+    daemons (1.2.4)
+    eventmachine (1.2.3)
+    execjs (2.7.0)
+>>>>>>> integration
     haml (4.0.7)
       tilt
     rack (1.6.5)
     rack-protection (1.5.3)
       rack
+<<<<<<< HEAD
+=======
+    sass (3.4.23)
+>>>>>>> integration
     sinatra (1.4.8)
       rack (~> 1.5)
       rack-protection (~> 1.4)
@@ -22,6 +37,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+<<<<<<< HEAD
+=======
+  bootstrap (~> 4.0.0.alpha6)
+>>>>>>> integration
   haml (>= 4.0.7)
   sinatra (>= 1.4.8)
   thin (>= 1.7.0)
