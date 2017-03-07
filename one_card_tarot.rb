@@ -85,7 +85,7 @@ class OneCardTarot < Sinatra::Base
     end
 
     get '/' do
-        haml :index
+        erb :index
     end
 
     get '/result' do
