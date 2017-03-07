@@ -90,12 +90,6 @@ class OneCardTarot < Sinatra::Base
 
     get '/result' do
         @card = @deck[rand(78)]
-        erb %(
-          <h1><%= @card[:name] %></h1>
-          <img src="<%= @card[:image] %>" />
-          <br><br><b><u><%= @card[:name] %></u></b>
-          <br><%= @card[:desc] %>
-      	<p><a href="/">home</a></p>
-        )
+        erb :result
     end
 end
