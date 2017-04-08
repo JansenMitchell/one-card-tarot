@@ -85,7 +85,7 @@ class OneCardTarot < Sinatra::Base
     end
 
     get '/' do
-        erb :index
+        erb :index, :layout => :layout_root
     end
 
     get '/result' do
