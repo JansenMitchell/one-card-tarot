@@ -23,5 +23,8 @@ DEPENDENCIES
   sinatra (>= 1.4.8)
   thin (>= 1.7.0)
 
+RUBY VERSION
+   ruby 2.4.0p0
+
 BUNDLED WITH
    1.14.6
