@@ -50,13 +50,3 @@ a#twitterlink {
   top: 60%;
   right: 36.25%;
 }
-
-a#copyright {
-  font-family: 'Crimson Text', serif;
-  font-size: 17px;
-  display: block;
-  text-align: center;
-  position: absolute;
-  top: 95%;
-  right: 42.40%;
-}
